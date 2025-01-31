@@ -1,0 +1,12 @@
+{
+    "coins": ["BTC", "ETH", "SOL"],
+    "alert_settings": {
+      "desktop_notifications": true,
+      "sound_alarm": true,
+      "pushover": {
+        "enabled": false,
+        "api_key": "YOUR_API_KEY",
+        "user_key": "YOUR_USER_KEY"
+      }
+    }
+  }

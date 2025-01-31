@@ -1,6 +1,7 @@
 import ccxt
 
-def fetch_prices(exchange, coins):
+def fetch_prices(coins):
+    exchange = ccxt.binance()
     prices = {}
     for coin in coins:
         try:
